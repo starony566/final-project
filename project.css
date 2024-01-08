@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+ font-family: 'DM Sans', sans-serif;
+}
+.section1{
+  width: 100%;
+  height: 40rem;
+  /* border: 1px solid blue; */
+  background-image: url(Banner\ Home1\ \(1\).webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-wrapper{
+    height: 5rem;
+    width: 95%;
+    border-radius: 8px;
+    background-color: white;
+    align-items: center;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding:15px ;
+    display: flex;
+    justify-content: space-between;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    height: 2rem;
+    /* border: 1px solid black; */
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 8px;
+    margin-top: 2px;
+    padding: 20px 10px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .dropdown-content1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .dropdown-content a {
+    /* transition:padding-left 0.5s; */
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f3566ff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    line-height:10px;
+    transition: padding-left;
+  } 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .menu-icon{
+    display: flex;
+    gap: 2rem;
+  }
+  
+
+.bx-phone{
+  color: #12dba2ff;
+  font-size: 22px;
+}
+.bxs-cart{
+  font-size: 20px;
+}
+.button{
+  background-color: #12dba2ff;
+  color: white;
+  border-radius: 8px;
+  width: 15rem;
+  height: 3.5rem;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.button i{
+  position: absolute;
+  font-size: 20px;
+  align-items: center;
+  font-weight: 500;
+}
+.button:hover{
+  color:#12dba2ff;
+  background-color: white;
+  border: 1px solid #12dba2ff;
+}
+ul li a:hover{
+  color:#12dba2ff;
+}
+
+.dropdown-content a:hover::before { 
+    content: '\0336';
+    padding: 0 10px;
+    width: 50px;
+    color: aquamarine;
+  }
+  
+  .dropdown-content a:hover{
+    color: aquamarine;
+    padding-left: 5px;
+  }
+
+  ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+
+  ul li a{
+  
+    color: #0f3566ff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  
+
+  .section1-text{
+    position: absolute;
+    max-width: 410px;
+    max-height: 600px;
+    /* border: 1px solid black; */
+    background: transparent;
+    color: white;
+    margin-top: 22%;
+    margin-left: 60px;
+  }
